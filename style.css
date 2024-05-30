@@ -1,0 +1,88 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-image:url(./back.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    
+}
+
+body .card{
+
+    width: 36%;
+    height: 400px;
+    background-color: rgba(199, 212, 212, 0.533);
+    margin: auto;
+    margin-top: 10%;
+    border-radius: 5%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    padding-top: 3%;
+    justify-content: space-between;
+    line-height: 1.6;
+}
+.card h2,h3{
+    font-weight: 600;
+    line-height: inherit;
+}
+/* .card h3{
+    font-weight: 600;
+    line-height: inherit;
+} */
+form .buttons{
+    margin-top: 10%;
+}
+.btn-success,.btn-danger{
+    width: 60px;
+    height: 40px;
+    margin: 5%;
+}
+@media (max-width: 800px) {
+    body .card{
+
+        width: 40%;
+        height: 400px;
+    }
+    .card h2,h3{
+        font-weight: 600;
+        line-height: inherit;
+    }
+}
+@media (max-width: 600px) {
+    body .card{
+
+        width: 50%;
+        height: 350px;
+    }
+    .card h2,h3{
+        font-weight: 500;
+        line-height: normal;
+        
+    }
+}
+@media (max-width: 400px) {
+    body .card{
+
+        width: 55%;
+        height: 350px;
+    }
+    .card h2,h3{
+        font-weight: 400;
+        line-height: normal;
+    }
+}
+@media (max-width: 300px) {
+    body .card{
+
+        width: 60%;
+        height: 300px;
+    }
+    .card h2,h3{
+        font-weight: 300;
+        line-height: normal;
+    }
+}
